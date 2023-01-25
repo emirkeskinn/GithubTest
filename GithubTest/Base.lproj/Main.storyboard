@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="NBg-4r-AzA">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="NBg-4r-AzA">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -14,8 +16,8 @@
                     <view key="view" contentMode="scaleToFill" id="qv4-gV-QR9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="Yzp-TY-v1F"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" title="ÇIKARTMA" id="Z98-El-OEP"/>
                 </viewController>
@@ -31,9 +33,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JsM-xK-qcE">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JsM-xK-qcE">
                                 <rect key="frame" x="47" y="123" width="140" height="140"/>
-                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="140" id="L0N-fc-CcL"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="140" id="XpY-XI-ga1"/>
@@ -41,94 +43,95 @@
                                     <constraint firstAttribute="width" constant="140" id="mLx-Xt-RKZ"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="140" id="wYH-wa-orh"/>
                                 </constraints>
-                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="tintColor" systemColor="darkTextColor"/>
                                 <state key="normal" title="Toplama"/>
                                 <connections>
                                     <segue destination="deb-bN-xJZ" kind="show" id="s2t-K9-qnt"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="00F-lq-H3f">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="00F-lq-H3f">
                                 <rect key="frame" x="227" y="123" width="140" height="140"/>
-                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="00F-lq-H3f" secondAttribute="height" multiplier="1:1" id="FEX-8h-b6W"/>
                                     <constraint firstAttribute="height" constant="140" id="OlP-PH-RWo"/>
                                     <constraint firstAttribute="width" constant="140" id="P9w-OY-P3J"/>
                                 </constraints>
-                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="tintColor" systemColor="darkTextColor"/>
                                 <state key="normal" title="Çıkartma"/>
                                 <connections>
                                     <segue destination="FCs-kX-lzO" kind="show" id="6Vn-74-HbC"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JlA-ye-o3P">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JlA-ye-o3P">
                                 <rect key="frame" x="47" y="298" width="140" height="140"/>
-                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="140" id="nk7-Jm-JBx"/>
                                     <constraint firstAttribute="width" secondItem="JlA-ye-o3P" secondAttribute="height" multiplier="1:1" id="oUf-Xn-dYM"/>
                                     <constraint firstAttribute="height" constant="140" id="vqH-lI-WhP"/>
                                 </constraints>
-                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="tintColor" systemColor="darkTextColor"/>
                                 <state key="normal" title="Çarpma"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Czp-N5-xY8">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Czp-N5-xY8">
                                 <rect key="frame" x="227" y="298" width="140" height="140"/>
-                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="140" id="Fd6-Ss-qtc"/>
                                     <constraint firstAttribute="width" secondItem="Czp-N5-xY8" secondAttribute="height" multiplier="1:1" id="OLF-U6-8kC"/>
                                     <constraint firstAttribute="width" constant="140" id="ylc-eV-iPg"/>
                                 </constraints>
-                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="tintColor" systemColor="darkTextColor"/>
                                 <state key="normal" title="Bölme"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EU8-OG-A4K">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EU8-OG-A4K">
                                 <rect key="frame" x="47" y="648" width="140" height="140"/>
-                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="EU8-OG-A4K" secondAttribute="height" multiplier="1:1" id="5bD-EV-UIf"/>
                                     <constraint firstAttribute="width" constant="140" id="gke-LI-5lf"/>
                                     <constraint firstAttribute="height" constant="140" id="tiZ-AF-nEi"/>
                                 </constraints>
-                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="tintColor" systemColor="darkTextColor"/>
                                 <state key="normal" title="Çarpım Tablosu"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c4V-S7-lbU">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c4V-S7-lbU">
                                 <rect key="frame" x="227" y="648" width="140" height="140"/>
-                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="140" id="9Ps-fg-ZG4"/>
                                     <constraint firstAttribute="height" constant="140" id="R58-Cd-5jk"/>
                                     <constraint firstAttribute="width" secondItem="c4V-S7-lbU" secondAttribute="height" multiplier="1:1" id="xOk-5E-6tX"/>
                                 </constraints>
-                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="tintColor" systemColor="darkTextColor"/>
                                 <state key="normal" title="Oyunlar"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0JS-fx-KBH">
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0JS-fx-KBH">
                                 <rect key="frame" x="47" y="473" width="140" height="140"/>
-                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="0JS-fx-KBH" secondAttribute="height" multiplier="1:1" id="ByU-D3-i5K"/>
                                     <constraint firstAttribute="height" constant="140" id="hno-fP-gnK"/>
                                     <constraint firstAttribute="width" constant="140" id="wWM-ic-g76"/>
                                 </constraints>
-                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="tintColor" systemColor="darkTextColor"/>
                                 <state key="normal" title="Kesirli Sayılar"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Keu-18-1lj">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Keu-18-1lj">
                                 <rect key="frame" x="227" y="473" width="140" height="140"/>
-                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="140" id="51G-Mi-siN"/>
                                     <constraint firstAttribute="width" constant="140" id="Pst-k5-4Nd"/>
                                     <constraint firstAttribute="width" secondItem="Keu-18-1lj" secondAttribute="height" multiplier="1:1" id="UtM-d3-ARG"/>
                                 </constraints>
-                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="tintColor" systemColor="darkTextColor"/>
                                 <state key="normal" title="Üslü Sayılar"/>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="JsM-xK-qcE" firstAttribute="leading" secondItem="0JS-fx-KBH" secondAttribute="leading" id="0aQ-tO-Dik"/>
                             <constraint firstItem="JsM-xK-qcE" firstAttribute="leading" secondItem="EU8-OG-A4K" secondAttribute="leading" id="37a-9q-N6e"/>
@@ -180,7 +183,6 @@
                             <constraint firstItem="0JS-fx-KBH" firstAttribute="top" secondItem="JlA-ye-o3P" secondAttribute="bottom" constant="35" id="v6x-LZ-lko"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="EU8-OG-A4K" secondAttribute="bottom" constant="74" id="xgg-se-zee"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="MUTLU MATEMATİK" id="ZlY-UB-9Ac">
                         <leftBarButtonItems>
@@ -197,17 +199,17 @@
             </objects>
             <point key="canvasLocation" x="1952.1739130434785" y="116.51785714285714"/>
         </scene>
-        <!--emkpower-->
+        <!--Toplama-->
         <scene sceneID="QG5-a1-1cE">
             <objects>
                 <viewController id="deb-bN-xJZ" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LtG-TY-aBi">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="JQX-4e-JqI"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" title="emkpower" id="085-2D-U1q"/>
+                    <navigationItem key="navigationItem" title="Toplama" id="085-2D-U1q"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XWu-Ui-FwP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -232,4 +234,15 @@
             <point key="canvasLocation" x="1952" y="-1250"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="darkTextColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>
